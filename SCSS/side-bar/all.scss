@@ -1,0 +1,30 @@
+@import "../reset.scss";
+@import "../variable.scss";
+
+// side-bar
+
+body{
+    background-color: $side-bar-purple;
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        padding-top: 10px;
+
+        li{
+            color: white;
+            text-align: center;
+            padding: 5px;
+            font-size: 20px;
+            background-color: none;
+            &:hover{
+                font-size: 25px;
+                color: $side-bar-purple;
+                background-color: white;
+                cursor: pointer;
+            }
+
+        }
+    }
+}

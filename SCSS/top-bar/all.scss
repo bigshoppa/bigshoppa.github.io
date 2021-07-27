@@ -6,11 +6,13 @@ $market-name: #171974;
 
 body {
   min-width: 512px;
+  overflow-x: hidden;
+  overflow-y: hidden;
 
   ul {
     display: flex;
     justify-content: flex-end;
-    padding-right: 100px;
+    padding-right: 50px;
     background-color: $top-bar-purple;
     li {
         padding-top: 10px;
