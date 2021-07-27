@@ -53,32 +53,27 @@ table {
 }
 
 body {
-  min-width: 512px;
-}
-
-body ul {
+  height: 150px;
+  background-color: aquamarine;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  padding-right: 100px;
-  background-color: #817fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-body ul li {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 5px;
-  padding-left: 5px;
-  color: white;
-  font-weight: 900;
+body .container p {
+  padding: 10px;
+  font-size: 60px;
+  color: gray;
 }
 
-body ul li:hover {
-  color: #817fff;
-  background-color: white;
+body .container p:hover {
+  color: black;
   cursor: pointer;
 }
-/*# sourceMappingURL=all.css.map */
+/*# sourceMappingURL=ad.css.map */

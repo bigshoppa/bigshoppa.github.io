@@ -53,32 +53,47 @@ table {
 }
 
 body {
-  min-width: 512px;
-}
-
-body ul {
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  padding-right: 100px;
-  background-color: #817fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-body ul li {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 5px;
-  padding-left: 5px;
-  color: white;
-  font-weight: 900;
+body .container {
+  width: 60%;
 }
 
-body ul li:hover {
-  color: #817fff;
+body .container form {
+  margin-top: 100px;
+  padding: 20px;
+  border: 2px #817fff solid;
+  border-radius: 10px;
   background-color: white;
-  cursor: pointer;
+}
+
+body .container form .form-group {
+  margin-bottom: 5px;
+}
+
+body .container form .form-group label {
+  margin-top: 5px;
+}
+
+body .container form .form-group input {
+  margin-top: 5px;
+}
+
+body .container form .form-group small {
+  margin-top: 5px;
+}
+
+body .container form button {
+  margin-top: 5px;
 }
 /*# sourceMappingURL=all.css.map */
