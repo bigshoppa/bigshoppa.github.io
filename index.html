@@ -1,16 +1,21 @@
 <html>
 
 <head>
-<title>大蝦趴百貨</title>
+    <title>大蝦趴百貨</title>
 </head>
+<frameset rows="25%,75%" frameborder="NO">
+    <frame src="top-bar.html" name="a">
 
+        <frameset cols="70%,30%" frameborder="NO">
+            <frame src="side-bar.html" name="b">
+            <frame src="body.html" name="c">
 
-<frameset cols=150,* rows=30,*>
+        </frameset>
 
-    <frame src=" top-bar.html"></frame>
-    <frame src=" side-bar.html"></frame>
-    <frame src=" body.html"></frame>
+        <body>
 
-</frameset>
+            <p>此網頁使用框架，但是您的瀏覽器不支援框架。</p>
+
+        </body>
 
 </html>
