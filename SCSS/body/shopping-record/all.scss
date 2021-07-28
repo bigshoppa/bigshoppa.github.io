@@ -5,21 +5,92 @@
 
 body {
     .time-line {
-        padding: 50px;
+        padding: 20px;
         
-        .line-box {
+        .product-box{
             display: flex;
-            .line {
-                background-color: indianred;
-                width: 100px;
-                height: 20px;
-                border-right: 2px rgba(204, 204, 204, 0.904) solid;
-            }
+            .product-box-line{
+                .line-box-short {
+                    display: flex;
+                    .line {
+                        // background-color: indianred;
+                        width: 100px;
+                        height: 20px;
+                        border-right: 2px rgba(204, 204, 204, 0.904) solid;
+                    }
+        
+                    .line-empty {
+                        width: 100px;
+                        // background-color: hotpink;
+                        height: 20px;
+                    }
+                }
+                .dot-box{
+                    display: flex;
+                    .dot-empty{
+                        width: 96px;
+                        // background-color: hotpink;
+                        height: 10px;
+                    }
+                    .dot{
+                        width:10px;
+                        height:10px;
+                        border-radius:999em;
+                        background-color:gray;
+                    }
+                    .triangle{
+                        width: 0;
+                        height: 0;
+                        border-style: solid;
+                        border-width: 5px 96px 5px 0;
+                        border-color: transparent #e8e8e8 transparent transparent;
+                    }
 
-            .empty {
-                width: 100px;
-                background-color: hotpink;
-                height: 20px;
+                    
+                }
+                .line-box {
+                    display: flex;
+
+
+                    .line {
+                        // background-color: blueviolet;
+                        width: 100px;
+                        height: 150px;
+
+                        border-right: 2px rgba(204, 204, 204, 0.904) solid;
+                    }
+        
+                    .line-empty {
+                        width: 100px;
+                        // background-color: hotpink;
+
+                    }
+                }
+            }
+            .product-box-product{
+                padding: 10px;
+                display: flex;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                background-color: rgb(233, 233, 233);
+                // height: 110px;
+                width: 1000px;
+                border-radius: 10px 10px 10px 10px;
+                img{
+                    margin: 10px;
+                    height: 100px;
+                }
+                .product-text{
+                    ul{
+                        li{
+                            margin: 5px;
+                            span{
+                                font-weight: 900;
+                            }
+                        }
+
+                    }
+                }
             }
         }
     }
