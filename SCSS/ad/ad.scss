@@ -1,6 +1,10 @@
 @import "../reset.scss";
 
+
 body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+
   height: 150px;
   background-color: aquamarine;
   display: flex;

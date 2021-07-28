@@ -1,0 +1,26 @@
+@import "../../reset.scss";
+@import "../../variable.scss";
+
+// shopping-record
+
+body {
+    .time-line {
+        padding: 50px;
+        
+        .line-box {
+            display: flex;
+            .line {
+                background-color: indianred;
+                width: 100px;
+                height: 20px;
+                border-right: 2px rgba(204, 204, 204, 0.904) solid;
+            }
+
+            .empty {
+                width: 100px;
+                background-color: hotpink;
+                height: 20px;
+            }
+        }
+    }
+}

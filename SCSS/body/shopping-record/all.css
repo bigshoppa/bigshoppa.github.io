@@ -53,30 +53,26 @@ table {
   border-spacing: 0;
 }
 
-body {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  height: 150px;
-  background-color: aquamarine;
+body .time-line {
+  padding: 50px;
+}
+
+body .time-line .line-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
-body .container p {
-  padding: 10px;
-  font-size: 60px;
-  color: gray;
+body .time-line .line-box .line {
+  background-color: indianred;
+  width: 100px;
+  height: 20px;
+  border-right: 2px rgba(204, 204, 204, 0.904) solid;
 }
 
-body .container p:hover {
-  color: black;
-  cursor: pointer;
+body .time-line .line-box .empty {
+  width: 100px;
+  background-color: hotpink;
+  height: 20px;
 }
-/*# sourceMappingURL=ad.css.map */
+/*# sourceMappingURL=all.css.map */
