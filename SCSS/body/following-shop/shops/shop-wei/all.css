@@ -1,0 +1,219 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  overflow-x: hidden;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body .title-pic {
+  overflow: hidden;
+  width: 100%;
+  height: 300px;
+  border: 2px gray solid;
+}
+
+body .title-pic img {
+  width: 100%;
+  margin-top: -270px;
+}
+
+body .shop-pic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 180px;
+  left: 0px;
+}
+
+body .shop-pic img {
+  margin: 20px;
+  border-radius: 50%;
+  width: 200px;
+  -webkit-box-shadow: 2px 2px 5px 5px #817fff;
+          box-shadow: 2px 2px 5px 5px #817fff;
+}
+
+body .shop-pic h1 {
+  font-size: 60px;
+  background-color: #817fff;
+  padding: 10px;
+  -webkit-box-shadow: 2px 2px 5px 5px #817fff;
+          box-shadow: 2px 2px 5px 5px #817fff;
+}
+
+body .shop-pic p {
+  margin: 20px;
+  border-radius: 20px;
+  background-color: darkgray;
+  color: #474747;
+  font-weight: bold;
+  padding: 10px;
+}
+
+body .shop-pic p:hover {
+  cursor: pointer;
+}
+
+body .empty-block {
+  height: 150px;
+  width: 100%;
+}
+
+body .container h2 {
+  margin-left: 20px;
+  font-size: 50px;
+}
+
+body .container .products .product {
+  margin: 20px;
+}
+
+body .container .products .product .product-name {
+  background-color: #30578a;
+  padding: 10px;
+}
+
+body .container .products .product .product-name p {
+  font-size: 30px;
+  color: white;
+}
+
+body .container .products .product .product-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 2px #30578a dashed;
+  border-left: 2px #30578a dashed;
+  border-right: 2px #30578a dashed;
+  border-radius: 0 0 20px   20px;
+  padding: 10px;
+}
+
+body .container .products .product .product-box .product-img {
+  overflow: hidden;
+  width: 220px;
+  height: 220px;
+}
+
+body .container .products .product .product-box .product-text h3 {
+  font-size: 25px;
+  margin: 5px;
+}
+
+body .container .products .product .product-box .product-text h3 span {
+  font-weight: bold;
+}
+
+body .container .products .product .product-box .product-text ul li {
+  margin: 5px;
+  padding-left: 20px;
+}
+
+body .container .products .product .product-box .product-text .product-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container .products .product .product-box .product-text .product-buttons .btn1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  margin: 10px;
+  -webkit-box-shadow: 1px 1px 1px 1px gray;
+          box-shadow: 1px 1px 1px 1px gray;
+}
+
+body .container .products .product .product-box .product-text .product-buttons .btn1:hover {
+  cursor: pointer;
+  -webkit-box-shadow: -1px -1px 1px 1px black;
+          box-shadow: -1px -1px 1px 1px black;
+}
+
+body .container .products .product .product-box .product-text .product-buttons .btn2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100px;
+  height: 30px;
+  background-color: gray;
+  color: white;
+  margin: 10px;
+  -webkit-box-shadow: 1px 1px 1px 1px black;
+          box-shadow: 1px 1px 1px 1px black;
+}
+
+body .container .products .product .product-box .product-text .product-buttons .btn2:hover {
+  cursor: pointer;
+  -webkit-box-shadow: -1px -1px 1px 1px black;
+          box-shadow: -1px -1px 1px 1px black;
+}
+/*# sourceMappingURL=all.css.map */
