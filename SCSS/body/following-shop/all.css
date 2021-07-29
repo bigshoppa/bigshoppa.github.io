@@ -104,15 +104,30 @@ body .market .market-container .product-container .product-box {
           align-items: stretch;
 }
 
-body .market .market-container .product-container .product-box img {
+body .market .market-container .product-container .product-box .product-img {
   width: 150px;
   height: 150px;
+  position: relative;
   border: 2px #817fff solid;
   border-radius: 0;
-  margin: 0;
 }
 
-body .market .market-container .product-container .product-box img:hovor {
+body .market .market-container .product-container .product-box .product-img img {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 0;
+  border: none;
+}
+
+body .market .market-container .product-container .product-box .product-img img:hover {
   cursor: pointer;
 }
 
