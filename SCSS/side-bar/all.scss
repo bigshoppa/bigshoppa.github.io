@@ -13,16 +13,30 @@ body{
         padding-top: 10px;
 
         li{
-            color: white;
+            
+
+            color: white; 
             text-align: center;
-            padding: 5px;
             font-size: 20px;
             background-color: none;
-            &:hover{
-                font-size: 25px;
-                color: $side-bar-purple;
-                background-color: white;
-                cursor: pointer;
+            
+
+            // &:hover{
+            //     font-size: 25px;
+            //     color: $side-bar-purple;
+            //     background-color: white;
+            //     cursor: pointer;
+            // }
+            a{
+                display: block;
+                color: white; 
+                padding: 10px;
+                &:hover{
+                    font-size: 25px;
+                    color: $side-bar-purple;
+                    background-color: white;
+                    cursor: pointer;
+                }
             }
 
         }
