@@ -142,9 +142,22 @@ body .container .products .product .product-box {
 }
 
 body .container .products .product .product-box .product-img {
-  overflow: hidden;
   width: 220px;
   height: 220px;
+  position: relative;
+}
+
+body .container .products .product .product-box .product-img img {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 body .container .products .product .product-box .product-text h3 {
