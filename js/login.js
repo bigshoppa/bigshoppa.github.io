@@ -19,7 +19,9 @@ login_btn.addEventListener(
                 AccountExist=true;
                 if(login_data[i].password.trim()==password_input.trim()){
                     alert("早安"+account_input+"美好的一天"+"\n登入成功");
-                    top.location='https://bigshoppa.github.io/index';
+                    window.location.href='index.html';
+                    // top.location='https://bigshoppa.github.io/index';
+                    // TODO 網頁跳轉出了問題
                     //
                     // var result = confirm("早安"+account_input+"美好的一天"+"\n登入成功");
                     // if (result) {
