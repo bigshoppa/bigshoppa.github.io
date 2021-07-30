@@ -21,11 +21,11 @@ login_btn.addEventListener(
                     alert("早安"+account_input+"美好的一天"+"\n登入成功");
                     top.location='https://bigshoppa.github.io/index';
                     //
-                    var result = confirm("早安"+account_input+"美好的一天"+"\n登入成功");
-                    if (result) {
-                        window.location.assign("/index.html");
-                    } else {
-                    }
+                    // var result = confirm("早安"+account_input+"美好的一天"+"\n登入成功");
+                    // if (result) {
+                    //     window.location.assign("/index.html");
+                    // } else {
+                    // }
 
                 }else{
                     alert("密碼錯誤，登入失敗");

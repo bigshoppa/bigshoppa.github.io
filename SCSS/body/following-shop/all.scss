@@ -11,8 +11,15 @@ body{
         padding: 20px;
         p {
           font-size: 30px;
+          display: block;
           span {
+            
             color: $market-name;
+            
+            &:hover{
+              cursor: pointer;
+            }
+            
           }
         }
         .market-container {

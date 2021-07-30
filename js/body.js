@@ -1,5 +1,6 @@
 var anniversary = document.querySelector(".anniversary");
 
+//top-bar
 anniversary.addEventListener(
     "click",
     function () {
@@ -7,3 +8,7 @@ anniversary.addEventListener(
     },
     false
   );
+
+
+  //following-shop
+  
